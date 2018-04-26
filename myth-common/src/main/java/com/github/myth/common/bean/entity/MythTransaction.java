@@ -112,5 +112,93 @@ public class MythTransaction implements Serializable {
         mythParticipants.add(mythParticipant);
     }
 
+	public String getTransId() {
+		return transId;
+	}
+
+	public void setTransId(String transId) {
+		this.transId = transId;
+	}
+
+	public int getStatus() {
+		return status;
+	}
+
+	public void setStatus(int status) {
+		this.status = status;
+	}
+
+	public int getRole() {
+		return role;
+	}
+
+	public void setRole(int role) {
+		this.role = role;
+	}
+
+	public int getRetriedCount() {
+		return retriedCount;
+	}
+
+	public void setRetriedCount(int retriedCount) {
+		this.retriedCount = retriedCount;
+	}
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
+	public Date getLastTime() {
+		return lastTime;
+	}
+
+	public void setLastTime(Date lastTime) {
+		this.lastTime = lastTime;
+	}
+
+	public Integer getVersion() {
+		return version;
+	}
+
+	public void setVersion(Integer version) {
+		this.version = version;
+	}
+
+	public String getTargetClass() {
+		return targetClass;
+	}
+
+	public void setTargetClass(String targetClass) {
+		this.targetClass = targetClass;
+	}
+
+	public String getTargetMethod() {
+		return targetMethod;
+	}
+
+	public void setTargetMethod(String targetMethod) {
+		this.targetMethod = targetMethod;
+	}
+
+	public String getErrorMsg() {
+		return errorMsg;
+	}
+
+	public void setErrorMsg(String errorMsg) {
+		this.errorMsg = errorMsg;
+	}
+
+	public List<MythParticipant> getMythParticipants() {
+		return mythParticipants;
+	}
+
+	public void setMythParticipants(List<MythParticipant> mythParticipants) {
+		this.mythParticipants = mythParticipants;
+	}
+
 
 }

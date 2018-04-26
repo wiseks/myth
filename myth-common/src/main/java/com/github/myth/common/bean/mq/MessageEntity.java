@@ -47,4 +47,30 @@ public class MessageEntity {
      */
     private MythInvocation mythInvocation;
 
+
+	public MessageEntity(String transId2, MythInvocation mythInvocation2) {
+		this.transId = transId2;
+		this.mythInvocation = mythInvocation2;
+	}
+
+
+	public String getTransId() {
+		return transId;
+	}
+
+
+	public void setTransId(String transId) {
+		this.transId = transId;
+	}
+
+
+	public MythInvocation getMythInvocation() {
+		return mythInvocation;
+	}
+
+
+	public void setMythInvocation(MythInvocation mythInvocation) {
+		this.mythInvocation = mythInvocation;
+	}
+
 }

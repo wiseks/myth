@@ -42,4 +42,22 @@ public class MythTransactionEvent implements Serializable {
     public void clear() {
         mythTransaction = null;
     }
+
+	public MythTransaction getMythTransaction() {
+		return mythTransaction;
+	}
+
+	public void setMythTransaction(MythTransaction mythTransaction) {
+		this.mythTransaction = mythTransaction;
+	}
+
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
+	}
+    
+    
 }

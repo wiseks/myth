@@ -80,6 +80,86 @@ public class LogVO implements Serializable {
     private String errorMsg;
 
 
+	public String getTransId() {
+		return transId;
+	}
+
+
+	public void setTransId(String transId) {
+		this.transId = transId;
+	}
+
+
+	public Integer getRetriedCount() {
+		return retriedCount;
+	}
+
+
+	public void setRetriedCount(Integer retriedCount) {
+		this.retriedCount = retriedCount;
+	}
+
+
+	public String getCreateTime() {
+		return createTime;
+	}
+
+
+	public void setCreateTime(String createTime) {
+		this.createTime = createTime;
+	}
+
+
+	public String getLastTime() {
+		return lastTime;
+	}
+
+
+	public void setLastTime(String lastTime) {
+		this.lastTime = lastTime;
+	}
+
+
+	public Integer getVersion() {
+		return version;
+	}
+
+
+	public void setVersion(Integer version) {
+		this.version = version;
+	}
+
+
+	public String getTargetClass() {
+		return targetClass;
+	}
+
+
+	public void setTargetClass(String targetClass) {
+		this.targetClass = targetClass;
+	}
+
+
+	public String getTargetMethod() {
+		return targetMethod;
+	}
+
+
+	public void setTargetMethod(String targetMethod) {
+		this.targetMethod = targetMethod;
+	}
+
+
+	public String getErrorMsg() {
+		return errorMsg;
+	}
+
+
+	public void setErrorMsg(String errorMsg) {
+		this.errorMsg = errorMsg;
+	}
+
+
 
 
 

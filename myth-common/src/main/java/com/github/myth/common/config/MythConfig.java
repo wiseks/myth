@@ -297,4 +297,117 @@ public class MythConfig {
     }
 
 
+	public String getRepositorySuffix() {
+		return repositorySuffix;
+	}
+
+	public void setRepositorySuffix(String repositorySuffix) {
+		this.repositorySuffix = repositorySuffix;
+	}
+
+	public String getSerializer() {
+		return serializer;
+	}
+
+	public void setSerializer(String serializer) {
+		this.serializer = serializer;
+	}
+
+	public String getRepositorySupport() {
+		return repositorySupport;
+	}
+
+	public void setRepositorySupport(String repositorySupport) {
+		this.repositorySupport = repositorySupport;
+	}
+
+	public Boolean getNeedRecover() {
+		return needRecover;
+	}
+
+	public void setNeedRecover(Boolean needRecover) {
+		this.needRecover = needRecover;
+	}
+
+	public int getScheduledThreadMax() {
+		return scheduledThreadMax;
+	}
+
+	public void setScheduledThreadMax(int scheduledThreadMax) {
+		this.scheduledThreadMax = scheduledThreadMax;
+	}
+
+	public int getScheduledDelay() {
+		return scheduledDelay;
+	}
+
+	public void setScheduledDelay(int scheduledDelay) {
+		this.scheduledDelay = scheduledDelay;
+	}
+
+	public int getRetryMax() {
+		return retryMax;
+	}
+
+	public void setRetryMax(int retryMax) {
+		this.retryMax = retryMax;
+	}
+
+	public int getRecoverDelayTime() {
+		return recoverDelayTime;
+	}
+
+	public void setRecoverDelayTime(int recoverDelayTime) {
+		this.recoverDelayTime = recoverDelayTime;
+	}
+
+	public int getBufferSize() {
+		return bufferSize;
+	}
+
+	public void setBufferSize(int bufferSize) {
+		this.bufferSize = bufferSize;
+	}
+
+	public MythDbConfig getMythDbConfig() {
+		return mythDbConfig;
+	}
+
+	public void setMythDbConfig(MythDbConfig mythDbConfig) {
+		this.mythDbConfig = mythDbConfig;
+	}
+
+	public MythMongoConfig getMythMongoConfig() {
+		return mythMongoConfig;
+	}
+
+	public void setMythMongoConfig(MythMongoConfig mythMongoConfig) {
+		this.mythMongoConfig = mythMongoConfig;
+	}
+
+	public MythRedisConfig getMythRedisConfig() {
+		return mythRedisConfig;
+	}
+
+	public void setMythRedisConfig(MythRedisConfig mythRedisConfig) {
+		this.mythRedisConfig = mythRedisConfig;
+	}
+
+	public MythZookeeperConfig getMythZookeeperConfig() {
+		return mythZookeeperConfig;
+	}
+
+	public void setMythZookeeperConfig(MythZookeeperConfig mythZookeeperConfig) {
+		this.mythZookeeperConfig = mythZookeeperConfig;
+	}
+
+	public MythFileConfig getMythFileConfig() {
+		return mythFileConfig;
+	}
+
+	public void setMythFileConfig(MythFileConfig mythFileConfig) {
+		this.mythFileConfig = mythFileConfig;
+	}
+
+
 }

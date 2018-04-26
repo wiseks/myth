@@ -39,4 +39,24 @@ public class MythTransactionContext implements Serializable {
     private int role;
 
 
+	public String getTransId() {
+		return transId;
+	}
+
+
+	public void setTransId(String transId) {
+		this.transId = transId;
+	}
+
+
+	public int getRole() {
+		return role;
+	}
+
+
+	public void setRole(int role) {
+		this.role = role;
+	}
+
+
 }

@@ -10,7 +10,7 @@
 
 
     <amq:connectionFactory id="amqConnectionFactory"
-                           brokerURL="tcp://120.76.52.162:61616"
+                           brokerURL="tcp://47.98.169.15:61616"
                            userName="happylife"
                            password="happylifeplat01"
                            />

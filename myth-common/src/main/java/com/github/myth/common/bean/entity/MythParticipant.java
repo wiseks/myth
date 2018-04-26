@@ -56,9 +56,17 @@ public class MythParticipant implements Serializable {
      * 执行器
      */
     private MythInvocation mythInvocation;
+    
+    
+
+	public MythParticipant() {
+	}
 
 	public MythParticipant(String transId2, String destination2, Integer pattern2, MythInvocation mythInvocation2) {
 		this.transId = transId2;
+		this.destination = destination2;
+		this.pattern = pattern2;
+		this.mythInvocation = mythInvocation2;
 	}
 
 	public String getTransId() {

@@ -36,30 +36,35 @@ public class MythInvocation implements Serializable {
     private static final long serialVersionUID = -5108578223428529356L;
 
     @Getter
-    private Class targetClass;
+    private Class<?> targetClass;
 
 
     @Getter
     private String methodName;
 
     @Getter
-    private Class[] parameterTypes;
+    private Class<?>[] parameterTypes;
 
     @Getter
     private Object[] args;
+    
+    
 
-	public MythInvocation(Class clazz, String name, Class[] args2, Object[] arguments) {
+	public MythInvocation() {
+	}
+
+	public MythInvocation(Class<?> clazz, String name, Class<?>[] args2, Object[] arguments) {
 		this.targetClass = clazz;
 		this.methodName = name;
 		this.parameterTypes = args2;
 		this.args = arguments;
 	}
 
-	public Class getTargetClass() {
+	public Class<?> getTargetClass() {
 		return targetClass;
 	}
 
-	public void setTargetClass(Class targetClass) {
+	public void setTargetClass(Class<?> targetClass) {
 		this.targetClass = targetClass;
 	}
 

@@ -46,6 +46,10 @@ public class MessageEntity {
      * 执行器
      */
     private MythInvocation mythInvocation;
+    
+
+	public MessageEntity() {
+	}
 
 
 	public MessageEntity(String transId2, MythInvocation mythInvocation2) {

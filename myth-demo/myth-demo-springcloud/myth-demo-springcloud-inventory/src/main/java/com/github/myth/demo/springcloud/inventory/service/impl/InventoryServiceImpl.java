@@ -65,19 +65,19 @@ public class InventoryServiceImpl implements InventoryService {
     public Boolean decrease(InventoryDTO inventoryDTO) {
         LOGGER.info("==========springcloud调用扣减库存decrease===========");
         final InventoryDO entity = inventoryMapper.findByProductId(inventoryDTO.getProductId());
-
-        if (entity.getTotalInventory() < inventoryDTO.getCount()) {
-            throw new MythRuntimeException(" spring cloud inventory-service 库存不足!");
-        }
-
-        entity.setTotalInventory(entity.getTotalInventory() - inventoryDTO.getCount());
-
-        final int decrease = inventoryMapper.decrease(entity);
-        if (decrease != 1) {
-            throw new MythRuntimeException("spring cloud inventory-service 库存不足!");
-        }
-
-        return true;
+        throw new MythRuntimeException(" spring cloud inventory-service 库存不足!");
+//        if (entity.getTotalInventory() < inventoryDTO.getCount()) {
+//            throw new MythRuntimeException(" spring cloud inventory-service 库存不足!");
+//        }
+//
+//        entity.setTotalInventory(entity.getTotalInventory() - inventoryDTO.getCount());
+//
+//        final int decrease = inventoryMapper.decrease(entity);
+//        if (decrease != 1) {
+//            throw new MythRuntimeException("spring cloud inventory-service 库存不足!");
+//        }
+//
+//        return true;
     }
 
     /**

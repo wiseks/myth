@@ -45,7 +45,6 @@ import java.util.Optional;
  * @author xiaoyu
  */
 @Component
-@SuppressWarnings("unchecked")
 public class MythTransactionEngine {
 
     /**

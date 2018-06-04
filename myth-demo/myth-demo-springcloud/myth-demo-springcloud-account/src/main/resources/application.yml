@@ -31,15 +31,15 @@ spring:
         #   user: happylife
         #   password: happylifeplat01
         #   trust-all: true
-   #rabbitmq:
-        #    host: localhost
-        #    port: 5672
-        #    username: guest
-        #    password: guest
-    rocketmq:
-          namesrvAddr: localhost:9876
-          consumerGroupName: account
-          instanceName: account
+    rabbitmq:
+            host: 47.98.169.15
+            port: 5672
+            username: guest
+            password: guest
+    #rocketmq:
+          #namesrvAddr: localhost:9876
+          #consumerGroupName: account
+          #instanceName: account
    #kafka:
           #  consumer:
           #     bootstrap-servers: localhost:9092

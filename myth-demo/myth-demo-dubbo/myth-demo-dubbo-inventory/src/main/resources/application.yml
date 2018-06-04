@@ -14,17 +14,17 @@ spring:
     #   user: happylife
     #   password: happylifeplat01
     #   trust-all: true
-   #rabbitmq:
-    #    host: localhost
-    #    port: 5672
-    #    username: guest
-    #    password: guest
-    aliyunmq:
-            broker-url: http://onsaddr-internet.aliyun.com/rocketmq/nsaddr4client-internet
-            accessKey: LTAI44DGK0oAutoj
-            secretKey: RBXTnPSVxHYfrn2IFFoVtgExZdw1M2
-            topic: ORDER_FLOW_BQ
-            consumerId: CID_ORDER_FLOW_BQ
+    rabbitmq:
+        host: 47.98.169.15
+        port: 5672
+        username: guest
+        password: guest
+    #aliyunmq:
+            #broker-url: http://onsaddr-internet.aliyun.com/rocketmq/nsaddr4client-internet
+            #accessKey: LTAI44DGK0oAutoj
+            #secretKey: RBXTnPSVxHYfrn2IFFoVtgExZdw1M2
+           # topic: ORDER_FLOW_BQ
+            #consumerId: CID_ORDER_FLOW_BQ
 #    rocketmq:
 #            namesrvAddr: localhost:9876
 #            consumerGroupName: CID_ORDER_FLOW_BQ_INVENTORY
